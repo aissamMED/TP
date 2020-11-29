@@ -1,13 +1,9 @@
 package com.brightcoding.app.ws;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+public class ApplicationTests {
 
-@SpringBootTest
-class ApplicationTests {
-
-	@Test
-	void contextLoads() {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
 	}
 
 }
